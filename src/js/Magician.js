@@ -6,5 +6,5 @@ class Magician extends Character {
   }
 }
 
-const magician = new Magician('John', 'Bowman', 25, 25);
+const magician = new Magician('John', 'Magician', 10, 40);
 magician.show();

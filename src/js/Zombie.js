@@ -6,5 +6,5 @@ class Zombie extends Character {
   }
 }
 
-const zombie = new Zombie('John', 'Zombie', 20, 20);
+const zombie = new Zombie('John', 'Zombie', 40, 10);
 zombie.show();

@@ -6,5 +6,5 @@ class Daemon extends Character {
   }
 }
 
-const daemon = new Daemon('John', 'Daemon', 25, 25);
+const daemon = new Daemon('John', 'Daemon', 10, 40);
 daemon.show();

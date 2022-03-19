@@ -6,5 +6,5 @@ class Swordsman extends Character {
   }
 }
 
-const swordsman = new Swordsman('John', 'Swordsman', 20, 20);
+const swordsman = new Swordsman('John', 'Swordsman', 40, 10);
 swordsman.show();
