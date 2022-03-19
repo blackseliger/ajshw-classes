@@ -1,5 +1,6 @@
 /* eslint-disable no-new */
 import Character from '../js/app';
+import Bowerman from '../js/Bowerman';
 
 test('should show error name if not in 2&10', () => {
   expect(() => {
@@ -35,4 +36,22 @@ test('should setted this.type', () => {
   const expected = 'Swordsman';
   const character = new Character('Gleb', 'Swordsman', 0, 0);
   expect(character.type).toEqual(expected);
+});
+
+test('should setted this.type in class Bowerman', () => {
+  const expected = 'Bowman';
+  const character = new Bowerman('Gleb', 'Bowman', 25, 25);
+  expect(character.type).toEqual(expected);
+});
+
+test('should setted this.attack in class Bowerman', () => {
+  const expected = 25;
+  const character = new Bowerman('Gleb', 'Bowman', 25, 20);
+  expect(character.attack).toEqual(expected);
+});
+
+test('should setted this.defence in class Bowerman', () => {
+  const expected = 20;
+  const character = new Bowerman('Gleb', 'Bowman', 25, 20);
+  expect(character.defence).toEqual(expected);
 });

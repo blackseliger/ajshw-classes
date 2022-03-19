@@ -1,6 +1,6 @@
 import Character from './app';
 
-class Bowerman extends Character {
+export default class Bowerman extends Character {
   show() {
     console.log(this);
   }
